@@ -13,7 +13,9 @@ module.exports = {
         'blue-100': '#00B9AE',
 
         'zinc-100': '#F9F9F9',
-
+      },
+      fontFamily: {
+        'lato': ['Lato', 'sans-serif']
       }
     },
   },
