@@ -47,7 +47,7 @@ export default function Home() {
       <div className="w-64 bg-blue-800 py-12 flex items-center flex-col">
         <div className="flex items-center gap-2">
           <span className="flex items-center gap-2">Erick <CaretDown size={20}/></span>
-          <img className="w-14 h-14 rounded-2xl" src='https://github.com/erick-araujo-dev.png'/> 
+          <Image width={56} height={56} alt="Avatar user" className="w-14 h-14 rounded-2xl" src='https://github.com/erick-araujo-dev.png'/> 
 
         </div>
 
