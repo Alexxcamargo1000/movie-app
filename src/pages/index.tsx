@@ -62,8 +62,8 @@ export default function Home() {
           </li>
         </ul>
 
-        <ul className="flex flex-col">
-          <span className="text-zinc-300">Categorias</span>
+        <ul className="flex flex-col gap-3">
+          <span className="text-zinc-300 text-lg">Categorias</span>
 
           <li>
             <a className="flex items-center gap-3" href="">
@@ -106,7 +106,7 @@ export default function Home() {
       <main className="flex-1 pl-64">
         <h1>Hello</h1>
       </main>
-      <div className="w-64 bg-blue-800 py-12 flex items-center flex-col">
+      <div className="scrollStyle w-64 h-screen bg-blue-800 py-12 flex items-center flex-col fixed top-0 right-0 overflow-y-scroll">
         <div className="flex items-center gap-2">
           <span className="flex items-center gap-2">
             Erick <CaretDown size={20} />

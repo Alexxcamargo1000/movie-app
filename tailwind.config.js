@@ -15,8 +15,8 @@ module.exports = {
         'zinc-100': '#F9F9F9',
       },
       fontFamily: {
-        'lato': ['Lato', 'sans-serif']
-      }
+        lato: ['Lato', 'sans-serif'],
+      },
     },
   },
   plugins: [],
