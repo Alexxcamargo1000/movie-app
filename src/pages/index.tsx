@@ -12,7 +12,7 @@ import {
 export default function Home() {
   return (
     <div className="flex min-h-screen h-full font-lato overflow-auto">
-      <aside className="flex flex-col gap-8 h-screen w-64 bg-blue-800 pl-8 py-8 fixed top-0 left-0">
+      <aside className="flex flex-col gap-8 h-screen w-64 bg-blue-800 pl-8 py-8 fixed top-0 left-0 scrollStyle overflow-y-scroll">
         <svg
           width="70"
           height="47"
@@ -91,22 +91,22 @@ export default function Home() {
           <ul className="flex flex-col gap-3 ">
             <span className="text-zinc-300">Geral</span>
             <li>
-              <a className="flex items-center gap-3" href="">
+              <button className="flex items-center gap-3">
                 <Gear size={24} /> Configurações
-              </a>
+              </button>
             </li>
             <li>
-              <a className="flex items-center gap-3" href="">
+              <button className="flex items-center gap-3">
                 <SignOut size={24} /> Sair
-              </a>
+              </button>
             </li>
           </ul>
         </div>
       </aside>
-      <main className="flex-1 pl-64">
-        <h1>Hello</h1>
+      <main className="flex-1 mx-64">
+        <h1>Main</h1>
       </main>
-      <div className="scrollStyle w-64 h-screen bg-blue-800 py-12 flex items-center flex-col fixed top-0 right-0 overflow-y-scroll">
+      <div className="w-64 h-screen bg-blue-800 py-12 flex items-center flex-col fixed top-0 right-0 ">
         <div className="flex items-center gap-2">
           <span className="flex items-center gap-2">
             Erick <CaretDown size={20} />
@@ -122,26 +122,26 @@ export default function Home() {
 
         <h3 className="mt-8 text-3xl mb-6">Categorias</h3>
 
-        <div className="flex flex-col gap-5">
-          <div className="relative rounded-xl overflow-hidden">
+        <div className="flex flex-col gap-5 scrollStyle overflow-y-scroll px-2">
+          <div className="flex-shrink-0 relative rounded-xl overflow-hidden">
             <Image src="/picture.png" width={210} height={100} alt="" />
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               Drama
             </span>
           </div>
-          <div className="relative rounded-xl overflow-hidden">
+          <div className="flex-shrink-0 relative rounded-xl overflow-hidden">
             <Image src="/picture.png" width={210} height={100} alt="" />
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               Drama
             </span>
           </div>
-          <div className="relative rounded-xl overflow-hidden">
+          <div className="flex-shrink-0 relative rounded-xl overflow-hidden">
             <Image src="/picture.png" width={210} height={100} alt="" />
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               Drama
             </span>
           </div>
-          <div className="relative rounded-xl overflow-hidden">
+          <div className="flex-shrink-0 relative rounded-xl overflow-hidden">
             <Image src="/picture.png" width={210} height={100} alt="" />
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               Drama
