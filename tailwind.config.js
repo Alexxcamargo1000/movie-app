@@ -11,6 +11,7 @@ module.exports = {
         'blue-900': '#16181E',
         'blue-800': '#21242D',
         'blue-100': '#00B9AE',
+        'blue-200': '#00968D',
 
         'zinc-100': '#F9F9F9',
       },
